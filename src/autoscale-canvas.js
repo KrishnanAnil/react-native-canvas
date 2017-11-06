@@ -11,6 +11,7 @@ const scale = ratio => item => {
  * @return {Canvas}
  */
 window.autoScaleCanvas = function autoScaleCanvas(canvas) {
+  return canvas;
   const ctx = canvas.getContext('2d');
   const ratio = window.devicePixelRatio || 1;
   if (ratio != 1) {
